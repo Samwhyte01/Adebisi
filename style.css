@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white hsl(0, 0%, 100%);
+    float: center;
+    width: 50rem;
+}
+.notification_wrap{
+    width: 500px;
+    margin: 120px auto;
+}
+li{
+    color: solid black;
+    font-size: 20px;
+    margin-bottom: none;
+}
+.olu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#J{
+    background-color: hsl(211, 68%, 94%);
+    padding: 5px;
+}
+#JK{
+    background-color: hsl(211, 68%, 94%);
+    padding: 5px;
+}
+#jc{
+    background-color: hsl(211, 68%, 94%);
+    padding: 5px;
+}
+
+#MARK{
+    background-color: hsl(219, 12%, 42%);
+    padding: 5px;
+    color: white;
+    border-radius: 5rem;
+}
+.read{
+    float: right;
+}
+.notification_wrap .notification_icon .fa-bell{
+    cursor: pointer;
+}
+.notification_wrap .dropdown{
+    width: 750px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.125);
+    padding: 15px;
+    position: relative;
+    border-radius: 1.5rem;
+}
+.word{
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 4px;
+    height: 45px;
+}
+.notification_wrap .dropdown .notify_item{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+.notification_wrap .dropdown .notify_item:last-child{
+    border-bottom: 0px;
+}
+.notification_wrap .dropdown .notify_img{
+    margin-right: 15px;
+}
+.notification_wrap .dropdown .notify_item .notify_info p span{
+    color: rgb(106, 106, 200);
+}
+.notification_wrap .dropdown .notify_item .notify_info .notify_time{
+    color: #c5c5a6;
+    font-size:12px;
+}
+button{
+    background-color: #fff;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: black;
+    cursor: pointer;
+}
+.notification_wrap .dropdown:active{
+    display: block;
+}
